@@ -63,11 +63,16 @@
       <option name="send-app-info" value="false" />
       <option name="auto-commit" value="true" />
     </driver>
+    <driver id="java.sql.Driver" name="Database Driver" driver-class="java.sql.Driver">
+      <option name="auto-commit" value="true" />
+      <option name="auto-sync" value="true" />
+      <option name="send-app-info" value="true" />
+    </driver>
     <driver id="db2.jtopen">
       <artifact name="JTOpen (DB2 iSeries)" use="true" />
       <option name="auto-sync" value="false" />
     </driver>
-    <driver id="mysql" name="bireport-production">
+    <driver id="mysql">
       <artifact name="MySQL Connector/J" use="true" version="5.1.45" />
       <option name="auto-sync" value="true" />
       <option name="auto-commit" value="true" />
